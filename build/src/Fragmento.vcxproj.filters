@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Input.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Timer.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Window.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Application.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\Entity.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\EntityRegistry.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\EntityObserver.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\components\Components.cpp">
+      <Filter>src\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.cpp">
+      <Filter>src\modules\worldGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.cpp">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.cpp">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\Scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\SceneHandler.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Input.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Timer.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Window.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Application.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\Entity.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityRegistry.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityObserver.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityGroup.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Components.h">
+      <Filter>src\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Selectable.h">
+      <Filter>src\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Shapes.h">
+      <Filter>src\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\camera\Camera.h">
+      <Filter>src\modules\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\camerController\CameraController.h">
+      <Filter>src\modules\cameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\gridScene\GridScene.h">
+      <Filter>src\modules\gridScene</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\gridScene\EntityGrid.h">
+      <Filter>src\modules\gridScene</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.h">
+      <Filter>src\modules\worldGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\CameraInfo.h">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityInfo.h">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\MouseInfo.h">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.h">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.h">
+      <Filter>src\modules\uiPanels</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityGrid\EntityGrid.h">
+      <Filter>src\modules\entityGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityComponents\SpriteComponent.h">
+      <Filter>src\modules\entityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\SceneState.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\Scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\SceneHandler.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\utility\Logger.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\utility\FileLoader.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.h">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Dev\active\FragmentoCmake\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{CE0A24DB-8817-3907-8BC7-6241BD377176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{91E98CAC-1526-35B9-87B5-09A012B89E7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity">
+      <UniqueIdentifier>{91AF845F-999B-3A60-9D33-F95E55C95BCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\components">
+      <UniqueIdentifier>{F70963AF-7DC3-3A8C-95AC-0519ACFF6E79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules">
+      <UniqueIdentifier>{F93FEBC5-FA3E-31AA-8084-E9D67FCA2CBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\camera">
+      <UniqueIdentifier>{E98AE2E6-858C-350C-899B-F6DC70BE3C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\cameraController">
+      <UniqueIdentifier>{70184BDE-E8C2-380B-BC78-66F61ACAB7FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\entityComponents">
+      <UniqueIdentifier>{A98BD77E-7686-3D39-85C8-4FA5EEB1354F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\entityGrid">
+      <UniqueIdentifier>{A1A1D648-0B52-3035-B323-1A9D74ED0736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\gridScene">
+      <UniqueIdentifier>{220C26B1-CBC9-37D4-A957-55E56A0FA616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\uiPanels">
+      <UniqueIdentifier>{1B348965-C403-39C1-8AA6-67F00D5A79B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\worldGrid">
+      <UniqueIdentifier>{6812FA84-EA6D-3938-B254-2AEAE60B27D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer">
+      <UniqueIdentifier>{EA87C891-128B-341C-868A-08A1687C56F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{78342E5C-114C-36D4-9CED-6CC6F8486C35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{98AF26E7-6B70-350F-A077-3B84C3E3C2A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{DDBA6885-631C-3314-86FF-583A98415F02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

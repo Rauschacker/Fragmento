@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/CMakeLists.txt
+F:/Dev/active/FragmentoCmake/vendor/raylib/CMakeOptions.txt
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/AddIfFlagCompiles.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/BuildOptions.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/CompilerFlags.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/EnumOption.cmake

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFF5172D-9B1F-3D51-BEF0-E2F9D52A1401}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Dev\active\FragmentoCmake\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\FetchContent.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Dev\active\FragmentoCmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\FetchContent.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Dev\active\FragmentoCmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\FetchContent.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Dev\active\FragmentoCmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\FetchContent.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\Dev\active\FragmentoCmake\build\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Dev\active\FragmentoCmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\ZERO_CHECK.vcxproj">
+      <Project>{BF88EDCF-BDE3-34F6-8547-BFF3D7FA9560}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\Editor\Editor.vcxproj">
+      <Project>{047A4D75-6DB1-344F-AF16-E26D94D277BE}</Project>
+      <Name>Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\src\Fragmento.vcxproj">
+      <Project>{FD46B91A-ACB0-3037-99E9-884A20650DA3}</Project>
+      <Name>Fragmento</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\box2d\src\box2d.vcxproj">
+      <Project>{26DE4802-0DB2-39C2-AD16-2435D37EC370}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylib\raylib\external\glfw\src\glfw.vcxproj">
+      <Project>{3A206BD2-5A39-3678-A6A6-7C36451597A8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\imgui\imgui.vcxproj">
+      <Project>{3E9B4041-26F5-3946-A6F5-B8B619A7D6FD}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylib\raylib\raylib.vcxproj">
+      <Project>{83BA5965-4276-3DB3-BEE3-D8940CBA5BDF}</Project>
+      <Name>raylib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylibExtras\raylibExtras.vcxproj">
+      <Project>{06256ED1-2810-3892-813B-39516836A588}</Project>
+      <Name>raylibExtras</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\rlImGui\rlImGui.vcxproj">
+      <Project>{968BE30B-2398-3E72-9515-BE66434D2C0A}</Project>
+      <Name>rlImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\spdlog\spdlog.vcxproj">
+      <Project>{F26916D9-A49A-3DA7-9EDC-2B24D6BF784A}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\test\test.vcxproj">
+      <Project>{98D15CA4-BAE9-3E45-9CC7-7FC8EBA69139}</Project>
+      <Name>test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\box2d\unit-test\unit_test.vcxproj">
+      <Project>{14E539CD-BC80-3D8C-AE06-6F75CB6FA28F}</Project>
+      <Name>unit_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

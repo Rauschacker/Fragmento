@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CheckIncludeFile.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CheckLibraryExists.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindThreads.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/GNUInstallDirs.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/src/external/glfw/CMake/glfw3.pc.in
+F:/Dev/active/FragmentoCmake/vendor/raylib/src/external/glfw/CMake/glfw3Config.cmake.in
+F:/Dev/active/FragmentoCmake/vendor/raylib/src/external/glfw/CMakeLists.txt

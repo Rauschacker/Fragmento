@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CPack.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/CPackComponent.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindOpenGL.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Modules/GNUInstallDirs.cmake
+C:/Users/fabir/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0/LocalCache/local-packages/Python39/site-packages/cmake/data/share/cmake-3.18/Templates/CPackConfig.cmake.in
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/CompileDefinitions.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/GlfwImport.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/InstallConfigurations.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/JoinPaths.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/LibraryConfigurations.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/LibraryPathToLinkerFlags.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/PackConfigurations.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/PopulateConfigVariablesLocally.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/cmake/raylib-config-version.cmake
+F:/Dev/active/FragmentoCmake/vendor/raylib/raylib.pc.in
+F:/Dev/active/FragmentoCmake/vendor/raylib/src/CMakeLists.txt

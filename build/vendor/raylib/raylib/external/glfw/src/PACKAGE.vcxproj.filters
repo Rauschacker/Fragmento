@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Dev\active\FragmentoCmake\build\CMakeFiles\b8a6d20411f51d66e200b47350197709\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{303000EA-6ABF-3EC8-909A-79061225CFBD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

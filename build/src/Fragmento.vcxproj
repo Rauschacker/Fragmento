@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD46B91A-ACB0-3037-99E9-884A20650DA3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Fragmento</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Dev\active\FragmentoCmake\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Fragmento.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Fragmento</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Dev\active\FragmentoCmake\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Fragmento.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Fragmento</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Dev\active\FragmentoCmake\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Fragmento.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Fragmento</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Dev\active\FragmentoCmake\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Fragmento.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Fragmento</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Dev\active\FragmentoCmake\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Dev\active\FragmentoCmake\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Dev\active\FragmentoCmake\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Dev\active\FragmentoCmake\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Dev/active/FragmentoCmake/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\fabir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\cmake\data\bin\cmake.exe -SF:/Dev/active/FragmentoCmake -BF:/Dev/active/FragmentoCmake/build --check-stamp-file F:/Dev/active/FragmentoCmake/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Dev\active\FragmentoCmake\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Input.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Timer.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Window.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\core\Application.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Input.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Timer.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Window.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\core\Application.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\Entity.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\EntityRegistry.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\EntityObserver.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\Entity.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityRegistry.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityObserver.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\EntityGroup.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Components.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Selectable.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\entity\components\Shapes.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\entity\components\Components.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\camera\Camera.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\camerController\CameraController.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\gridScene\GridScene.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\gridScene\EntityGrid.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\CameraInfo.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityInfo.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\MouseInfo.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityGrid\EntityGrid.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityComponents\SpriteComponent.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\SceneState.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\Scene.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\SceneHandler.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\Scene.cpp" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\SceneHandler.cpp" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\utility\Logger.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\utility\FileLoader.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.h" />
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\ZERO_CHECK.vcxproj">
+      <Project>{BF88EDCF-BDE3-34F6-8547-BFF3D7FA9560}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\box2d\src\box2d.vcxproj">
+      <Project>{26DE4802-0DB2-39C2-AD16-2435D37EC370}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylib\raylib\external\glfw\src\glfw.vcxproj">
+      <Project>{3A206BD2-5A39-3678-A6A6-7C36451597A8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\imgui\imgui.vcxproj">
+      <Project>{3E9B4041-26F5-3946-A6F5-B8B619A7D6FD}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylib\raylib\raylib.vcxproj">
+      <Project>{83BA5965-4276-3DB3-BEE3-D8940CBA5BDF}</Project>
+      <Name>raylib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylibExtras\raylibExtras.vcxproj">
+      <Project>{06256ED1-2810-3892-813B-39516836A588}</Project>
+      <Name>raylibExtras</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\rlImGui\rlImGui.vcxproj">
+      <Project>{968BE30B-2398-3E72-9515-BE66434D2C0A}</Project>
+      <Name>rlImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\spdlog\spdlog.vcxproj">
+      <Project>{F26916D9-A49A-3DA7-9EDC-2B24D6BF784A}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
