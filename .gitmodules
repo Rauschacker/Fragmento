@@ -7,3 +7,6 @@
 [submodule "vendor/glfw"]
 	path = vendor/glfw
 	url = https://github.com/glfw/glfw
+[submodule "vendor/raylib"]
+	path = vendor/raylib
+	url = https://github.com/raysan5/raylib
