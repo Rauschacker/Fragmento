@@ -1,0 +1,1948 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "vendor",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vendor"
+				},
+				{
+					"build" : "vendor/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "vendor/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/imgui",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vendor/box2d",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/box2d/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "vendor/box2d/unit-test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/unit-test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vendor/raylibExtras",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/raylibExtras",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "vendor/rlImGui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/rlImGui",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "vendor/spdlog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "vendor/spdlog",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Editor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6,
+						10,
+						11,
+						13,
+						14,
+						15
+					],
+					"name" : "Fragmento",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						10,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"name" : "box2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@1e9db359b48fad81080b",
+					"jsonFile" : "target-ALL_BUILD-Debug-99ea5875681fc454157c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-52f0c706ba299b62da93.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@20ae0f9feeec10ffeaa7",
+					"jsonFile" : "target-ALL_BUILD-Debug-98db6210f1360845c823.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@64d7e1245bd1accb141f",
+					"jsonFile" : "target-ALL_BUILD-Debug-a9370e6412e5075605f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@dfcab47719c6f148cbdc",
+					"jsonFile" : "target-ALL_BUILD-Debug-712ce4eda8e7af489993.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Editor::@b58ce4ae47b5f4fc4f99",
+					"jsonFile" : "target-Editor-Debug-7d896bb7ca6c5c11329f.json",
+					"name" : "Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Fragmento::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Fragmento-Debug-46938da5f6712a20df08.json",
+					"name" : "Fragmento",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-5e5f60b6517995bab1bb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "box2d::@314dc1944c4842b5c9cd",
+					"jsonFile" : "target-box2d-Debug-8cffb200a15ba213a1af.json",
+					"name" : "box2d",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@878e4ea062a7878da03b",
+					"jsonFile" : "target-glfw-Debug-f7ae6eff836543d8171b.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "imgui::@3edc7d76825c910d4a8d",
+					"jsonFile" : "target-imgui-Debug-8cdf428892320a4f3b68.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raylib::@83a3c8edfb4834ace9c0",
+					"jsonFile" : "target-raylib-Debug-3c1b5adbd5ef18872891.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "raylibExtras::@cb65be88ef77184d5952",
+					"jsonFile" : "target-raylibExtras-Debug-b81e61ba0be7beab3e7a.json",
+					"name" : "raylibExtras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rlImGui::@f19bcb9132832b7672cd",
+					"jsonFile" : "target-rlImGui-Debug-c6190cddc6e135db0a89.json",
+					"name" : "rlImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "spdlog::@1e9db359b48fad81080b",
+					"jsonFile" : "target-spdlog-Debug-236357f60d0644d22ac3.json",
+					"name" : "spdlog",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Debug-405dfa6c5daf275b2a93.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "unit_test::@e030fc6f66c35b1943ed",
+					"jsonFile" : "target-unit_test-Debug-788120b77c6754e80cbd.json",
+					"name" : "unit_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "vendor",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vendor"
+				},
+				{
+					"build" : "vendor/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "vendor/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/imgui",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vendor/box2d",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/box2d/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "vendor/box2d/unit-test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/unit-test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vendor/raylibExtras",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/raylibExtras",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "vendor/rlImGui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/rlImGui",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "vendor/spdlog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "vendor/spdlog",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Editor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6,
+						10,
+						11,
+						13,
+						14,
+						15
+					],
+					"name" : "Fragmento",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						10,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"name" : "box2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@1e9db359b48fad81080b",
+					"jsonFile" : "target-ALL_BUILD-Release-99ea5875681fc454157c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-52f0c706ba299b62da93.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@20ae0f9feeec10ffeaa7",
+					"jsonFile" : "target-ALL_BUILD-Release-98db6210f1360845c823.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@64d7e1245bd1accb141f",
+					"jsonFile" : "target-ALL_BUILD-Release-a9370e6412e5075605f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@dfcab47719c6f148cbdc",
+					"jsonFile" : "target-ALL_BUILD-Release-712ce4eda8e7af489993.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Editor::@b58ce4ae47b5f4fc4f99",
+					"jsonFile" : "target-Editor-Release-3d3f639ad9637c0c4d66.json",
+					"name" : "Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Fragmento::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Fragmento-Release-4a505fee52abb6014a3d.json",
+					"name" : "Fragmento",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-5e5f60b6517995bab1bb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "box2d::@314dc1944c4842b5c9cd",
+					"jsonFile" : "target-box2d-Release-ac49e302a3bcc31ecef6.json",
+					"name" : "box2d",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@878e4ea062a7878da03b",
+					"jsonFile" : "target-glfw-Release-c7cde29ec857d69417c1.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "imgui::@3edc7d76825c910d4a8d",
+					"jsonFile" : "target-imgui-Release-42832d6498ce8ac34bbb.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raylib::@83a3c8edfb4834ace9c0",
+					"jsonFile" : "target-raylib-Release-b9d6e968fbf648fdfd0b.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "raylibExtras::@cb65be88ef77184d5952",
+					"jsonFile" : "target-raylibExtras-Release-afc076a049fcb637a0bb.json",
+					"name" : "raylibExtras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rlImGui::@f19bcb9132832b7672cd",
+					"jsonFile" : "target-rlImGui-Release-0661e70b774383be064b.json",
+					"name" : "rlImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "spdlog::@1e9db359b48fad81080b",
+					"jsonFile" : "target-spdlog-Release-fded50dfcebc6db573a0.json",
+					"name" : "spdlog",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Release-4a495a3a81427ca2cbde.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "unit_test::@e030fc6f66c35b1943ed",
+					"jsonFile" : "target-unit_test-Release-e43dd3f1697122b5c86d.json",
+					"name" : "unit_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "vendor",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vendor"
+				},
+				{
+					"build" : "vendor/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "vendor/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/imgui",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vendor/box2d",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/box2d/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "vendor/box2d/unit-test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/unit-test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vendor/raylibExtras",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/raylibExtras",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "vendor/rlImGui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/rlImGui",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "vendor/spdlog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "vendor/spdlog",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Editor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6,
+						10,
+						11,
+						13,
+						14,
+						15
+					],
+					"name" : "Fragmento",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						10,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"name" : "box2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@1e9db359b48fad81080b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-99ea5875681fc454157c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-52f0c706ba299b62da93.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@20ae0f9feeec10ffeaa7",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-98db6210f1360845c823.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@64d7e1245bd1accb141f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a9370e6412e5075605f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@dfcab47719c6f148cbdc",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-712ce4eda8e7af489993.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Editor::@b58ce4ae47b5f4fc4f99",
+					"jsonFile" : "target-Editor-MinSizeRel-73bf5d778d3729d78483.json",
+					"name" : "Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Fragmento::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Fragmento-MinSizeRel-5f89cdf636685aed8e8e.json",
+					"name" : "Fragmento",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-5e5f60b6517995bab1bb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "box2d::@314dc1944c4842b5c9cd",
+					"jsonFile" : "target-box2d-MinSizeRel-2b13c89c84c344af128b.json",
+					"name" : "box2d",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@878e4ea062a7878da03b",
+					"jsonFile" : "target-glfw-MinSizeRel-57b74437ebe10ec481aa.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "imgui::@3edc7d76825c910d4a8d",
+					"jsonFile" : "target-imgui-MinSizeRel-53207ec27cf6eed0c73b.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raylib::@83a3c8edfb4834ace9c0",
+					"jsonFile" : "target-raylib-MinSizeRel-f7ef92ca5005d5d9fc4f.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "raylibExtras::@cb65be88ef77184d5952",
+					"jsonFile" : "target-raylibExtras-MinSizeRel-01c9db4d76d1df0361c0.json",
+					"name" : "raylibExtras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rlImGui::@f19bcb9132832b7672cd",
+					"jsonFile" : "target-rlImGui-MinSizeRel-8ceb4d825cf2c5440d34.json",
+					"name" : "rlImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "spdlog::@1e9db359b48fad81080b",
+					"jsonFile" : "target-spdlog-MinSizeRel-cb80154cb849c3fbd763.json",
+					"name" : "spdlog",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-MinSizeRel-c539578eb0f3edc6f53f.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "unit_test::@e030fc6f66c35b1943ed",
+					"jsonFile" : "target-unit_test-MinSizeRel-a551c882826da1b86b4f.json",
+					"name" : "unit_test",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						7
+					]
+				},
+				{
+					"build" : "vendor",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vendor"
+				},
+				{
+					"build" : "vendor/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "vendor/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/imgui",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vendor/box2d",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/box2d/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "vendor/box2d/unit-test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "vendor/box2d/unit-test",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vendor/raylibExtras",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/raylibExtras",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "vendor/rlImGui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vendor/rlImGui",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "vendor/spdlog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "vendor/spdlog",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Editor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6,
+						10,
+						11,
+						13,
+						14,
+						15
+					],
+					"name" : "Fragmento",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						10,
+						12,
+						13,
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"name" : "box2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@1e9db359b48fad81080b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-99ea5875681fc454157c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-52f0c706ba299b62da93.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@20ae0f9feeec10ffeaa7",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-98db6210f1360845c823.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@64d7e1245bd1accb141f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a9370e6412e5075605f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@dfcab47719c6f148cbdc",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-712ce4eda8e7af489993.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Editor::@b58ce4ae47b5f4fc4f99",
+					"jsonFile" : "target-Editor-RelWithDebInfo-e58eae69c33d304c7d22.json",
+					"name" : "Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Fragmento::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Fragmento-RelWithDebInfo-017ee0ff99f0af146211.json",
+					"name" : "Fragmento",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-5e5f60b6517995bab1bb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "box2d::@314dc1944c4842b5c9cd",
+					"jsonFile" : "target-box2d-RelWithDebInfo-1313ecd8158ac083a18c.json",
+					"name" : "box2d",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@878e4ea062a7878da03b",
+					"jsonFile" : "target-glfw-RelWithDebInfo-4c3ae24747a71046a517.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "imgui::@3edc7d76825c910d4a8d",
+					"jsonFile" : "target-imgui-RelWithDebInfo-7f59c45c679200e328ca.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raylib::@83a3c8edfb4834ace9c0",
+					"jsonFile" : "target-raylib-RelWithDebInfo-1c33f48887417c643a77.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "raylibExtras::@cb65be88ef77184d5952",
+					"jsonFile" : "target-raylibExtras-RelWithDebInfo-f4e85f91eb79cc4ff371.json",
+					"name" : "raylibExtras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rlImGui::@f19bcb9132832b7672cd",
+					"jsonFile" : "target-rlImGui-RelWithDebInfo-546be99cb78cefbec571.json",
+					"name" : "rlImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "spdlog::@1e9db359b48fad81080b",
+					"jsonFile" : "target-spdlog-RelWithDebInfo-ef36b0e3eb5a24113797.json",
+					"name" : "spdlog",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-RelWithDebInfo-192e056a6eeb2965ea5e.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "unit_test::@e030fc6f66c35b1943ed",
+					"jsonFile" : "target-unit_test-RelWithDebInfo-e8e9ec426e9d83148ca3.json",
+					"name" : "unit_test",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Dev/active/FragmentoCmake/build",
+		"source" : "F:/Dev/active/FragmentoCmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

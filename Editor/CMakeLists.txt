@@ -1,5 +1,7 @@
 
-
+get_filename_component(DirName ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+string(REPLACE " " "_" ProjectId ${DirName})
+set(DirName "${fragmento_root_dir}/${DirName}")
 
 set(Editor_headers 
     Editor/Editor.h
@@ -31,7 +33,7 @@ add_library(Editor ${Editor_all})
 target_link_libraries(Editor PUBLIC Fragmento)
 
 set_target_properties (Editor PROPERTIES
-    FOLDER Editor
+    FOLDER ${DirName}
 )
 
 target_include_directories(Editor PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

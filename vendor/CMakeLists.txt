@@ -46,14 +46,18 @@ set_target_properties(box2d PROPERTIES
 #          extras            #
 ##############################
 add_subdirectory(raylibExtras)
+set_target_properties (raylibExtras PROPERTIES
+    FOLDER ${DirName}/extras
+)
 
 ##############################
 #          rlImGUi           #
 ##############################
 add_subdirectory(rlImGui)
-set_target_properties (raylibExtras PROPERTIES
-    FOLDER ${DirName}/extras
+set_target_properties (rlImGui PROPERTIES
+    FOLDER ${DirName}/rlImGui
 )
+
 
 ##############################
 #          sppdlog           #
