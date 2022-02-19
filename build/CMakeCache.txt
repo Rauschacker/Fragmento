@@ -333,7 +333,7 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 Fragmento_BINARY_DIR:STATIC=F:/Dev/active/FragmentoCmake/build
 
 //Dependencies for the target
-Fragmento_LIB_DEPENDS:STATIC=general;raylib;general;imgui;general;box2d;general;raylibExtras;general;rlImGui;general;spdlog;
+Fragmento_LIB_DEPENDS:STATIC=general;raylib;general;imgui;general;box2d;general;raylibExtras;general;rlImGui;general;raylibExtras;general;spdlog;
 
 //Value Computed by CMake
 Fragmento_SOURCE_DIR:STATIC=F:/Dev/active/FragmentoCmake
@@ -492,7 +492,7 @@ raylib_LIB_DEPENDS:STATIC=general;opengl32;glu32;winmm;glfw;
 raylib_SOURCE_DIR:STATIC=F:/Dev/active/FragmentoCmake/vendor/raylib/src
 
 //Dependencies for the target
-rlImGui_LIB_DEPENDS:STATIC=general;imgui;
+rlImGui_LIB_DEPENDS:STATIC=general;imgui;general;raylib;
 
 //Value Computed by CMake
 spdlog_BINARY_DIR:STATIC=F:/Dev/active/FragmentoCmake/build/vendor/spdlog

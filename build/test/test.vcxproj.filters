@@ -18,6 +18,9 @@
     <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\assetsFolderScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\spriteTest.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="F:\Dev\active\FragmentoCmake\test\CMakeLists.txt" />

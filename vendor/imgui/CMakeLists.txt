@@ -27,9 +27,7 @@ set(imgui_src
 
 
 add_library(imgui ${imgui_headers} ${imgui_src})
-set_target_properties (imgui PROPERTIES
-    FOLDER vendor/imgui
-)
+
 
 target_compile_definitions(imgui PRIVATE IMGUI_DISABLE_WIN32_FUNCTIONS=1)
 

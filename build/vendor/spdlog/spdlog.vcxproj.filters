@@ -264,6 +264,9 @@
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\ostr.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\ranges.h">
+      <Filter>Header Files\spdlog\fmt</Filter>
+    </ClInclude>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\xchar.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>

@@ -5,19 +5,22 @@
 
 struct SpriteComponent
 {
-	Texture Texture;
+	Texture Sprite;
 	Entity EntityRef;
 
 
 	SpriteComponent(Entity entity): EntityRef(entity)
 	{
-
 	}
 
 
+	void SetTexture(Texture texture) { Sprite = texture; }
+
+	Texture GetTexture() { return  Sprite; }
+
 	void Draw()
 	{
-
+		//EntityRef.Require<Shapes::Rectangle>();
 	}
 
 };

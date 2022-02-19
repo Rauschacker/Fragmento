@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\raygui;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\active\FragmentoCmake\test\Scenes;F:\Dev\active\FragmentoCmake\Editor;F:\Dev\active\FragmentoCmake\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src;F:\Dev\active\FragmentoCmake\vendor\raylib\src\external\glfw\include;F:\Dev\active\FragmentoCmake\vendor\imgui;F:\Dev\active\FragmentoCmake\vendor\box2d\src\..\include;F:\Dev\active\FragmentoCmake\vendor\entt;F:\Dev\active\FragmentoCmake\vendor\bitflags;F:\Dev\active\FragmentoCmake\vendor\rlImGui;F:\Dev\active\FragmentoCmake\vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -322,6 +322,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\enttTest.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\imguiFonts.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\assetsFolderScene.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\test\Scenes\spriteTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\ZERO_CHECK.vcxproj">

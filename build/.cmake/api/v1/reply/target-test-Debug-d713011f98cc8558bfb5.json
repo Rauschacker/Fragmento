@@ -1,0 +1,308 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test/Debug/test.exe"
+		},
+		{
+			"path" : "test/Debug/test.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"fragment" : "-std:c++latest"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GRAPHICS_API_OPENGL_33"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PLATFORM_DESKTOP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "F:/Dev/active/FragmentoCmake/test/Scenes"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/Editor"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/raylib/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/raylib/src/external/glfw/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/imgui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/box2d/src/../include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/entt"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/bitflags"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/rlImGui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Dev/active/FragmentoCmake/vendor/spdlog/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "box2d::@314dc1944c4842b5c9cd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@83a3c8edfb4834ace9c0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@878e4ea062a7878da03b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@3edc7d76825c910d4a8d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Editor::@b58ce4ae47b5f4fc4f99"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rlImGui::@f19bcb9132832b7672cd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylibExtras::@cb65be88ef77184d5952"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@1e9db359b48fad81080b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Fragmento::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Fragmento/test"
+	},
+	"id" : "test::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\Editor\\Debug\\Editor.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\src\\Debug\\Fragmento.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\box2d\\bin\\Debug\\box2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\raylibExtras\\Debug\\raylibExtras.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\rlImGui\\Debug\\rlImGui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\imgui\\Debug\\imgui.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\raylib\\raylib\\Debug\\raylib.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\raylib\\raylib\\external\\glfw\\src\\Debug\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\vendor\\spdlog\\Debug\\spdlogd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test",
+	"nameOnDisk" : "test.exe",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Scenes",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "test/Scenes/scene.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "test/Scenes/enttTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "test/Scenes/imguiFonts.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "test/Scenes/assetsFolderScene.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "test/Scenes/spriteTest.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

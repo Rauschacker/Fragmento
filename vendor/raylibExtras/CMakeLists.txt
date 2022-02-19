@@ -12,8 +12,6 @@ set(extras_headers
 add_library(raylibExtras ${extras_sources} ${extras_headers})
 
 
-set_target_properties (raylibExtras PROPERTIES
-    FOLDER vendor/extras
-)
+
 
 

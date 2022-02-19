@@ -42,15 +42,14 @@ public:
 		return m_Registry->get<T>(m_EntityHandle);
 	}
 
-	/*
-	template<typename T>
+#if 0
+	template<typename... Component>
 	bool HasComponent()
 	{
-		std::count << "You are asking if a entity has a component, this function is not yet implemented!!!!" << std::endl;
-		//return m_Scene->m_Registry.has<T>(m_EntityHandle);
-		return true;
+		return m_Registry.all_of<Component...>(m_EntityHandle);
 	}
-	*/
+#endif
+	
 
 	template<typename T>
 	void RemoveComponent()
@@ -70,6 +69,15 @@ public:
 	bool operator!=(const Entity& other) const
 	{
 		return !(*this == other);
+	}
+
+	template<typename T>
+	void Require()
+	{
+		if (!HasComponent<T>)
+		{
+			AddComponent<T>();
+		}
 	}
 
 	TransformComponent& GetTransform() { return GetComponent<TransformComponent>(); }

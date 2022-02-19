@@ -16,11 +16,8 @@ set(rlImGui_src
     rlImGui/rlImGui.cpp
 )
 
+
 add_library(rlImGui ${rlImGui_headers} ${rlImGui_src})
-
-set_target_properties (rlImGui PROPERTIES
-    FOLDER vendor/rlImGui
-)
-
-target_link_libraries(rlImGui PUBLIC imgui)
+target_link_libraries(rlImGui PRIVATE imgui)
+target_link_libraries(rlImGui PRIVATE raylib)
 target_include_directories(rlImGui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

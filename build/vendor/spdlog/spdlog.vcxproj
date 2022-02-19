@@ -364,6 +364,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\compile.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\fmt.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\ostr.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\ranges.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\xchar.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\bundled\args.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\fmt\bundled\chrono.h" />

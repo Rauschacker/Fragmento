@@ -1,5 +1,11 @@
 
 
+get_filename_component(DirName ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+string(REPLACE " " "_" ProjectId ${DirName})
+set(DirName "${fragmento_root_dir}/${DirName}")
+
+
+
 ##############################
 #          Raylib            #
 ##############################
@@ -7,21 +13,23 @@ set(RAYLIB_IS_MAIN FALSE)
 set(INCLUDE_EVERYTHING ${OFF})
 add_subdirectory(raylib)
 set_target_properties (raylib PROPERTIES
-    FOLDER vendor/raylib
+    FOLDER ${DirName}/raylib
 )
 
 ##############################
 #          glfw              #
 ##############################
 set_target_properties (glfw PROPERTIES
-    FOLDER vendor/glfw
+    FOLDER ${DirName}/glfw
 )
 
 ##############################
 #          imgui            #
 ##############################
 add_subdirectory(imgui)
-
+set_target_properties (imgui PROPERTIES
+    FOLDER ${DirName}/imgui
+)
 
 ##############################
 #          box2d             #
@@ -29,9 +37,9 @@ add_subdirectory(imgui)
 set(BOX2D_BUILD_TESTBED false)
 add_subdirectory(box2d)
 set_target_properties(box2d PROPERTIES
-    FOLDER vendor/box2d)
+    FOLDER ${DirName}/box2d)
     set_target_properties(unit_test PROPERTIES
-    FOLDER vendor/box2d)
+    FOLDER ${DirName}/box2d)
 
 
 ##############################
@@ -43,10 +51,31 @@ add_subdirectory(raylibExtras)
 #          rlImGUi           #
 ##############################
 add_subdirectory(rlImGui)
+set_target_properties (raylibExtras PROPERTIES
+    FOLDER ${DirName}/extras
+)
 
 ##############################
 #          sppdlog           #
 ##############################
 add_subdirectory(spdlog)
 set_target_properties(spdlog PROPERTIES
-    FOLDER vendor/spdlog)
+    FOLDER ${DirName}/spdlog)
+
+##############################
+#          entt              #
+##############################
+add_library(enTT INTERFACE)
+target_include_directories(enTT INTERFACE entt/)
+
+##############################
+#          bitflags          #
+##############################
+add_library(bitflags INTERFACE)
+target_include_directories(bitflags INTERFACE bitflags/)
+
+##############################
+#          Raygui            #
+##############################
+add_library(raygui INTERFACE)
+target_include_directories(raygui INTERFACE raygui/)

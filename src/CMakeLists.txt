@@ -1,5 +1,11 @@
 
 
+get_filename_component(DirName ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+string(REPLACE " " "_" ProjectId ${DirName})
+set(DirName "${fragmento_root_dir}/${DirName}")
+
+
+message("source_dir: " ${DirName})
 
 ##############################
 #          CORE              #
@@ -301,7 +307,7 @@ ${fragmento_renderer}
 ##############################
 
 add_library(Fragmento ${fragmento_all})
-set_target_properties(Fragmento PROPERTIES FOLDER Fragmento)
+set_target_properties(Fragmento PROPERTIES FOLDER ${DirName})
 target_include_directories(Fragmento PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_directories(Fragmento PUBLIC)
 set_target_properties(Fragmento PROPERTIES VS_GLOBAL_VcpkgEnabled false)
@@ -328,12 +334,12 @@ target_link_libraries(Fragmento PUBLIC box2d)
 ##############################
 #          entt              #
 ##############################
-target_include_directories(Fragmento PUBLIC ${CMAKE_SOURCE_DIR}/vendor/entt)
+target_link_libraries(Fragmento PUBLIC enTT)
 
 ##############################
-#          bitflags           #
+#          bitflags          #
 ##############################
-target_include_directories(Fragmento PUBLIC ${CMAKE_SOURCE_DIR}/vendor/bitflags)
+target_link_libraries(Fragmento PUBLIC bitflags)
 
 ##############################
 #          extras            #
@@ -348,7 +354,7 @@ target_link_libraries(Fragmento PUBLIC rlImGui)
 ##############################
 #          Raygui            #
 ##############################
-target_include_directories(Fragmento PUBLIC ${CMAKE_SOURCE_DIR}/vendor/raygui)
+target_link_libraries(Fragmento PUBLIC raylibExtras)
 
 ##############################
 #          spdlog            #
