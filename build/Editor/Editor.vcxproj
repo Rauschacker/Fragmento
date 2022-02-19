@@ -273,6 +273,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\Editor\Editor\Editor.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\Editor\Editor\Panels\Dockspace.h" />
     <ClInclude Include="F:\Dev\active\FragmentoCmake\Editor\Editor\Panels\MainMenuBar.h" />
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\Editor\Editor\Panels\GameViewPort.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\ZERO_CHECK.vcxproj">

@@ -15,7 +15,8 @@ source_group("src", ${Editor_src} ${Editor_headers})
 
 set(Panel_headers 
     Editor/Panels/Dockspace.h 
-    Editor/Panels/MainMenuBar.h
+    Editor/Panels/MainMenuBar.h 
+    Editor/Panels/GameViewPort.h
 )
 
 

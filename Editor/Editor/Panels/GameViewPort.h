@@ -1,13 +1,11 @@
 #pragma once
 #include "Scene/Scene.h"
-#include "GUI/GuiWrapper.h"
-#include "Core/Window.h"
-#include "Utility/ImageLoader.h"
-#include "ImGuiPanel.h"
+#include "Scene/SceneHandler.h"
+#include "ui/GuiWrapper.h"
 
 
 
-class GameViewPort : public ImGuiPanel {
+class GameViewPort : public Scene {
 
 
 private:
