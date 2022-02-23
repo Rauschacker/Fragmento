@@ -63,12 +63,11 @@ set(fragmento_enitity_components_headers
     entity/components/Components.h 
     entity/components/Selectable.h 
     entity/components/Shapes.h 
+    entity/components/Components.cpp
 )
 
 set(fragmento_entity_components_src 
-    entity/components/Components.cpp
-    #entity/components/Selectable.cpp
-    #entity/components/Shapes.cpp
+    
 )
 
 set(fragmento_entity_component 
@@ -227,7 +226,7 @@ source_group("src/modules/entityGrid" FILES ${fragmento_entityGrid})
 ######################### Entity Components #######################################
 
 set(fragmento_entityComponents_headers
-    modules/entityComponents/SpriteComponent.h 
+    
 )
 
 set(fragmento_entityComponents_src 
@@ -262,13 +261,28 @@ set(fragmento_utility_headers
     utility/FileLoader.h
 )
 
-set(fragmento_utility_src
-
+set(fragmento_utility_src 
+    utility/FileLoader.cpp
 )
 
 set(fragmento_utility ${fragmento_utility_headers} ${fragmento_utility_src})
 source_group("src/utility" FILES ${fragmento_utility})
 
+##############################
+#          animation         #
+##############################
+
+
+set(fragmento_animation_headers 
+    modules/animation/Animation.h
+)
+
+set(fragmento_animation_src
+
+)
+
+set(fragmento_animation ${fragmento_animation_headers} ${fragmento_animation_src})
+source_group("src/animation" FILES ${fragmento_animation})
 
 
 ##############################
@@ -300,6 +314,7 @@ ${fragmento_modules}
 ${fragmento_scene}
 ${fragmento_utility}
 ${fragmento_renderer}
+${fragmento_animation}
 )
 
 ##############################
@@ -360,3 +375,8 @@ target_link_libraries(Fragmento PUBLIC raylibExtras)
 #          spdlog            #
 ##############################
 target_link_libraries(Fragmento PUBLIC spdlog)
+
+##############################
+#          fmt               #
+##############################
+target_link_libraries(Fragmento PUBLIC fmt)

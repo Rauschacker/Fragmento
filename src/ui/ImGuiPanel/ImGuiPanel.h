@@ -4,7 +4,7 @@
 
 
 
-class ImGuiPanel : SubScene{
+class ImGuiPanel : public SubScene{
 
 private:
 	friend class ImGuiPanelController;

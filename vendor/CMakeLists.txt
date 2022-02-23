@@ -58,10 +58,19 @@ set_target_properties (rlImGui PROPERTIES
     FOLDER ${DirName}/rlImGui
 )
 
+##############################
+#          fmt 		     #
+##############################
+add_subdirectory(fmt)
+set_target_properties (fmt PROPERTIES
+    FOLDER ${DirName}/fmt
+)
+
 
 ##############################
 #          sppdlog           #
 ##############################
+set(SPDLOG_FMT_EXTERNAL ON)
 add_subdirectory(spdlog)
 set_target_properties(spdlog PROPERTIES
     FOLDER ${DirName}/spdlog)
@@ -83,3 +92,23 @@ target_include_directories(bitflags INTERFACE bitflags/)
 ##############################
 add_library(raygui INTERFACE)
 target_include_directories(raygui INTERFACE raygui/)
+
+##############################
+#          boost             #
+##############################
+
+
+##############################
+#          googletest        #
+##############################
+set(BUILD_GMOCK OFF)
+set(INSTALL_GTEST OFF)
+add_subdirectory(googletest)
+set_target_properties (gtest PROPERTIES
+    FOLDER ${DirName}/googletest
+)
+set_target_properties (gtest_main PROPERTIES
+    FOLDER ${DirName}/googletest
+)
+
+

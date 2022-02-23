@@ -63,7 +63,7 @@ private:
 			ImVec2(ImGui::GetCursorScreenPos().x + Window::Get().GetWidth() / 2,
 				ImGui::GetCursorScreenPos().y + Window::Get().GetHeight() / 2), ImVec2(0, 1), ImVec2(1, 0));
 		ImGui::End();
-#else
+#elseif 0
 
 		texture = Window::Get().frameBuffer.texture;
 		RLImGuiImage(&texture);

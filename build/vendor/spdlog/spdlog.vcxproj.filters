@@ -19,9 +19,6 @@
     <ClCompile Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\src\cfg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\src\fmt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\vendor\spdlog\include\spdlog\async.h">

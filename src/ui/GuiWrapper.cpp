@@ -17,8 +17,9 @@ void ImGuiWrapper::Init()
 	io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;           // Enable Docking
 	io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;         // Enable Multi-Viewport / Platform Windows
 	io.ConfigFlags |= ImGuiDockNodeFlags_PassthruCentralNode;
-	auto font = ImGui::GetIO().Fonts->AddFontFromFileTTF(File::GetFont("roboto/Roboto-Black.ttf").string().c_str(), 18);
-	ImGui::GetIO().FontDefault = font;
+	Log::info(File::GetFont("roboto/Roboto-Black.ttf").string());
+	//auto font = ImGui::GetIO().Fonts->AddFontFromFileTTF(File::GetFont("roboto/Roboto-Black.ttf").string().c_str(), 18);
+	//ImGui::GetIO().FontDefault = font;
 	FinishRLGLImguSetup();
 }
 

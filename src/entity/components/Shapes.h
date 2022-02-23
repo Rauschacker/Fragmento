@@ -10,13 +10,12 @@ namespace Shapes
 
 
 
-class Shape {
+class Shape : public BasicComponent{
 
 private:
 
 protected:
 
-	Entity* m_Entity;
 	TransformComponent* Position;
 	Color m_Color = BLACK;
 
@@ -26,7 +25,7 @@ public:
 
 	/* Constructors */
 
-	Shape(Entity& entity) : m_Entity(&entity), Position(&entity.GetComponent<TransformComponent>()) {}
+	Shape(Entity& entity) : BasicComponent(entity), Position(&entity.GetComponent<TransformComponent>()) {}
 
 	/* Destructors */
 
@@ -36,6 +35,8 @@ public:
 
 	/* Draw The Shape */
 	virtual void Draw(Color color = BLACK) {}
+
+	virtual void DrawWireFrame(Color color = BLACK) {}
 
 	virtual bool PointCollide(float x, float y) { return false; }
 
@@ -80,6 +81,10 @@ public:
 
 	void SetHeight(float height) { m_Height = height; }
 
+	float GetWidth()  const { return m_Width; }
+	float GetHeight()  const { return m_Height; }
+
+
 	/* Function Implementations */
 
 	virtual void Draw(Color color = BLACK) override
@@ -101,6 +106,32 @@ public:
 			return false;
 		}
 	}
+
+	virtual void DrawWireFrame(Color color = BLACK) override
+	{
+		auto& position = m_Entity->GetTransform();
+
+		Vector2 topLeft = { position.GetX(), position.GetY() };
+		Vector2 topRight = topLeft; topRight.x += m_Width;
+		Vector2 bottomLeft = topLeft; bottomLeft.y += m_Height;
+		Vector2 bottomRight = bottomLeft; bottomRight.x += m_Width;
+
+		DrawLineV(topLeft, topRight, color);
+		DrawLineV(topLeft, bottomLeft, color);
+		DrawLineV(topLeft, bottomRight, color); 
+		DrawLineV(bottomLeft, bottomRight, color);
+		DrawLineV(topRight, bottomRight, color);
+		DrawLineV(bottomLeft, topRight, color);
+	}
+
+
+	/*Conversion function*/
+
+	operator ::Rectangle() const
+	{
+		return ::Rectangle(m_Entity->GetTransform().GetX() , m_Entity->GetTransform().GetY(), m_Width, m_Height);
+	} 
+
 
 };
 

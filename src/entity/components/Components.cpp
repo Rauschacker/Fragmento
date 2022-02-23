@@ -1,7 +1,8 @@
 #include "Components.h"
 #include "Entity/Entity.h"
+#include "Shapes.h"
+#include "utility/Logger.h"
 
-BoundBox::BoundBox(Entity& entity) : m_Entity(&entity), Position(&entity.GetComponent<TransformComponent>()) {}
 
 void BoundBox::Clamp()
 {
@@ -11,4 +12,34 @@ void BoundBox::Clamp()
 	Position->SetX(clampedX);
 	Position->SetY(clampedY);
 	
+}
+
+
+void SpriteComponent::DrawSprite()
+{
+	//Log::info("drawing");
+	auto& position = m_Entity->GetTransform();
+	auto& rect = m_Entity->GetComponent<Shapes::Rectangle>();
+
+	
+	
+	Image image = ImageCopy(m_Image);
+	ImageResize(&image, rect.GetWidth(), rect.GetHeight());
+	Texture m_Texture = LoadTextureFromImage(image);
+	
+	DrawTexture(m_Texture, position.GetX(), position.GetY(), WHITE);
+
+
+	if (m_PreviousTexture == std::nullopt)
+	{
+		m_PreviousTexture = m_Texture;
+	}
+	else
+	{
+		UnloadTexture(m_PreviousTexture.value());
+		m_PreviousTexture = m_Texture;
+	}
+
+	//UnloadTexture(scaledTexture);
+	UnloadImage(image);
 }

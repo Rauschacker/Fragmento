@@ -11,7 +11,7 @@ Entity EntityRegistry::CreateEntity(const std::string& name)
 	auto& tag = entity.AddComponent<TagComponent>();
 	tag.Tag = name.empty() ? "Entity" : name;
 	tag.Handle = entity.GetHandle();
-	Log::info("Entity: {} has been created (entt::id = {})", tag.Tag, tag.Handle);
+	//Log::info("Entity: {} has been created (entt::id = {})", tag.Tag, tag.Handle);
 	return entity;
 }
 

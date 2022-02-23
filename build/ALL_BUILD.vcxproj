@@ -182,9 +182,21 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{26DE4802-0DB2-39C2-AD16-2435D37EC370}</Project>
       <Name>box2d</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\fmt\fmt.vcxproj">
+      <Project>{79CFC5B3-6DB5-367A-A7FC-EC005536D9B3}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\raylib\raylib\external\glfw\src\glfw.vcxproj">
       <Project>{3A206BD2-5A39-3678-A6A6-7C36451597A8}</Project>
       <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\googletest\googletest\gtest.vcxproj">
+      <Project>{6DF66789-D933-36D8-B443-51F0FDDAD012}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\googletest\googletest\gtest_main.vcxproj">
+      <Project>{039264D6-48D4-3DE3-A070-19EBBD48C391}</Project>
+      <Name>gtest_main</Name>
     </ProjectReference>
     <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\imgui\imgui.vcxproj">
       <Project>{3E9B4041-26F5-3946-A6F5-B8B619A7D6FD}</Project>
@@ -206,9 +218,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{F26916D9-A49A-3DA7-9EDC-2B24D6BF784A}</Project>
       <Name>spdlog</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\test\test.vcxproj">
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\test\Sandbox\test.vcxproj">
       <Project>{98D15CA4-BAE9-3E45-9CC7-7FC8EBA69139}</Project>
       <Name>test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\test\Test\unitTest.vcxproj">
+      <Project>{A83DE8C3-6212-39E2-9857-544861952196}</Project>
+      <Name>unitTest</Name>
     </ProjectReference>
     <ProjectReference Include="F:\Dev\active\FragmentoCmake\build\vendor\box2d\unit-test\unit_test.vcxproj">
       <Project>{14E539CD-BC80-3D8C-AE06-6F75CB6FA28F}</Project>

@@ -39,7 +39,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("F:/Dev/active/FragmentoCmake/build/vendor/box2d/cmake_install.cmake")
   include("F:/Dev/active/FragmentoCmake/build/vendor/raylibExtras/cmake_install.cmake")
   include("F:/Dev/active/FragmentoCmake/build/vendor/rlImGui/cmake_install.cmake")
+  include("F:/Dev/active/FragmentoCmake/build/vendor/fmt/cmake_install.cmake")
   include("F:/Dev/active/FragmentoCmake/build/vendor/spdlog/cmake_install.cmake")
+  include("F:/Dev/active/FragmentoCmake/build/vendor/googletest/cmake_install.cmake")
 
 endif()
 

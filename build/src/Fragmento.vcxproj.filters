@@ -43,6 +43,9 @@
     <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\SceneHandler.cpp">
       <Filter>src\scene</Filter>
     </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\utility\FileLoader.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
     <ClCompile Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.cpp">
       <Filter>src\renderer</Filter>
     </ClCompile>
@@ -117,9 +120,6 @@
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityGrid\EntityGrid.h">
       <Filter>src\modules\entityGrid</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityComponents\SpriteComponent.h">
-      <Filter>src\modules\entityComponents</Filter>
-    </ClInclude>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\scene\SceneState.h">
       <Filter>src\scene</Filter>
     </ClInclude>
@@ -138,6 +138,9 @@
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\renderer\Draw.h">
       <Filter>src\renderer</Filter>
     </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\animation\Animation.h">
+      <Filter>src\animation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="F:\Dev\active\FragmentoCmake\src\CMakeLists.txt" />
@@ -145,6 +148,9 @@
   <ItemGroup>
     <Filter Include="src">
       <UniqueIdentifier>{CE0A24DB-8817-3907-8BC7-6241BD377176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\animation">
+      <UniqueIdentifier>{3A19B276-F656-33DC-9ECC-8EF592C57566}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\core">
       <UniqueIdentifier>{91E98CAC-1526-35B9-87B5-09A012B89E7B}</UniqueIdentifier>
@@ -163,9 +169,6 @@
     </Filter>
     <Filter Include="src\modules\cameraController">
       <UniqueIdentifier>{70184BDE-E8C2-380B-BC78-66F61ACAB7FE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\modules\entityComponents">
-      <UniqueIdentifier>{A98BD77E-7686-3D39-85C8-4FA5EEB1354F}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\modules\entityGrid">
       <UniqueIdentifier>{A1A1D648-0B52-3035-B323-1A9D74ED0736}</UniqueIdentifier>

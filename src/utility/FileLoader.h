@@ -6,30 +6,15 @@ namespace fs = std::filesystem;
 namespace File
 {
 
-static fs::path GetRoot()
-{
-	
-	fs::path path = fs::current_path().parent_path();
-	return path;
-}
+	fs::path GetRoot();
 
+	fs::path GetAssetFolder();
 
-static fs::path GetAsset()
-{
-	
-	fs::path assetPath = GetRoot().append("assets");
-	return assetPath;
-}
+	std::string GetAssetFile(std::string file);
 
+	fs::path GetFont(std::string font);
 
-static fs::path GetFont(std::string font)
-{
-	return GetAsset().append("fonts").append(font);
-}
+	std::string GetBasicFonts(std::string font);
 
-static std::string GetBasicFonts(std::string font)
-{
-	return "C:\\WINDOWS\\FONTS\\" + font;
-}
 
 }

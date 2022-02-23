@@ -3,16 +3,32 @@
 #include <raymath.h>
 #include <string>
 #include "entt/entt.hpp"
+#include <optional>
 
 class Entity;
 
-struct TagComponent
+
+
+struct BasicComponent
+{
+
+	Entity* m_Entity;
+
+	void SetEntity(Entity* entity) { m_Entity = entity; }
+
+	BasicComponent() = default;
+
+	BasicComponent(Entity& entity) : m_Entity(&entity) {}
+
+};
+
+struct TagComponent: BasicComponent
 {
 	std::string Tag;
 	entt::entity Handle;
 };
 
-struct TransformComponent
+struct TransformComponent : BasicComponent
 {
 	Vector3 Position = { 0.0f, 0.0f, 0.0f };
 	Vector3 Translation = { 0.0f, 0.0f, 0.0f };
@@ -47,7 +63,7 @@ struct TransformComponent
 
 };
 
-class BoundBox
+class BoundBox: public BasicComponent
 {
 	
 	
@@ -56,16 +72,34 @@ private:
 	float y;
 	float height;
 	float width;
-	Entity* m_Entity;
 	TransformComponent* Position;
 
 public:
-	BoundBox(Entity& entity);
+
+	BoundBox() = default;
+ 	BoundBox(Entity& entity) : BasicComponent(entity) {}
 
 	void Clamp();
 	
 
 };
+
+class SpriteComponent : public BasicComponent
+{
+	Image m_Image;
+	Texture m_Texture;
+	std::optional<Texture> m_PreviousTexture = std::nullopt;
+
+public:
+
+	void SetImage(Image imgage) { m_Image = imgage; }
+
+	void DrawSprite();
+
+
+};
+
+
 
 
 
