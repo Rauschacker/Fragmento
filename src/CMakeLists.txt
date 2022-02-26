@@ -110,8 +110,28 @@ source_group("src/scene" FILES ${fragmento_scene})
 #          UI                #
 ##############################
 
+set(fragmento_uiPanels_headers
+#    modules/uiPanels/CameraInfo.h 
+#    modules/uiPanels/EntityInfo.h 
+#    modules/uiPanels/MouseInfo.h
+#    modules/uiPanels/EntityList.h
+    ui/panels/BasicPanels.h
+)   
+
+set(fragemento_uiPanels_src 
+ #   modules/uiPanels/EntityList.cpp
+     ui/panels/BasicPanels.cpp
+)
+
+set(fragmento_uiPanels ${fragmento_uiPanels_headers} ${fragemento_uiPanels_src})
+source_group("src/ui/panels" FILES ${fragmento_uiPanels})
+
+
+
 set(fragmento_ui_headers 
-    ui/GuiWrapper.h 
+    ui/GuiWrapper.h
+    ui/ImGuiPanel.h
+    ui/themes.h
 )
 
 
@@ -119,9 +139,10 @@ set(fragmento_ui_src
     ui/GuiWrapper.cpp 
 )
 
-set(fragmento_ui ${fragmento_ui_headers} ${fragmento_ui_src})
 
-source_group("src/ui" FILES ${fragmento_ui})
+set(fragmento_ui ${fragmento_ui_headers} ${fragmento_ui_src} ${fragmento_uiPanels})
+
+source_group("src/ui" FILES ${fragmento_ui_headers} ${fragmento_ui_src})
 
 
 ##############################
@@ -187,27 +208,6 @@ set(fragmento_worldGrid ${fragmento_worldGrid_headers} ${fragemento_worldGrid_sr
 source_group("src/modules/worldGrid" FILES ${fragmento_worldGrid})
 ###########################################################################
 
-
-######################### uiPanels #######################################
-
-set(fragmento_uiPanels_headers
-    modules/uiPanels/CameraInfo.h 
-    modules/uiPanels/EntityInfo.h 
-    modules/uiPanels/MouseInfo.h
-    modules/uiPanels/EntityList.h
-    modules/uiPanels/BasicPanels.h
-)   
-
-set(fragemento_uiPanels_src 
-    modules/uiPanels/EntityList.cpp
-    modules/uiPanels/BasicPanels.cpp
-)
-
-set(fragmento_uiPanels ${fragmento_uiPanels_headers} ${fragemento_uiPanels_src})
-source_group("src/modules/uiPanels" FILES ${fragmento_uiPanels})
-###########################################################################
-
-
 ######################### entityGrid #######################################
 
 set(fragmento_entityGrid_headers
@@ -244,7 +244,6 @@ set(fragmento_modules
     ${fragmento_cameraController}
     ${fragmento_gridScene}
     ${fragmento_worldGrid}
-    ${fragmento_uiPanels}
     ${fragmento_entityGrid}
     ${fragmento_entityComponents}
 )

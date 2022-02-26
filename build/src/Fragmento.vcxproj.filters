@@ -28,14 +28,11 @@
     <ClCompile Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.cpp">
       <Filter>src\ui</Filter>
     </ClCompile>
+    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\ui\panels\BasicPanels.cpp">
+      <Filter>src\ui\panels</Filter>
+    </ClCompile>
     <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.cpp">
       <Filter>src\modules\worldGrid</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.cpp">
-      <Filter>src\modules\uiPanels</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.cpp">
-      <Filter>src\modules\uiPanels</Filter>
     </ClCompile>
     <ClCompile Include="F:\Dev\active\FragmentoCmake\src\scene\Scene.cpp">
       <Filter>src\scene</Filter>
@@ -87,6 +84,15 @@
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\GuiWrapper.h">
       <Filter>src\ui</Filter>
     </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\ImGuiPanel.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\themes.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\ui\panels\BasicPanels.h">
+      <Filter>src\ui\panels</Filter>
+    </ClInclude>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\camera\Camera.h">
       <Filter>src\modules\camera</Filter>
     </ClInclude>
@@ -101,21 +107,6 @@
     </ClInclude>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\worldGrid\WorldGrid.h">
       <Filter>src\modules\worldGrid</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\CameraInfo.h">
-      <Filter>src\modules\uiPanels</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityInfo.h">
-      <Filter>src\modules\uiPanels</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\MouseInfo.h">
-      <Filter>src\modules\uiPanels</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\EntityList.h">
-      <Filter>src\modules\uiPanels</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\uiPanels\BasicPanels.h">
-      <Filter>src\modules\uiPanels</Filter>
     </ClInclude>
     <ClInclude Include="F:\Dev\active\FragmentoCmake\src\modules\entityGrid\EntityGrid.h">
       <Filter>src\modules\entityGrid</Filter>
@@ -176,9 +167,6 @@
     <Filter Include="src\modules\gridScene">
       <UniqueIdentifier>{220C26B1-CBC9-37D4-A957-55E56A0FA616}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\modules\uiPanels">
-      <UniqueIdentifier>{1B348965-C403-39C1-8AA6-67F00D5A79B9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\modules\worldGrid">
       <UniqueIdentifier>{6812FA84-EA6D-3938-B254-2AEAE60B27D6}</UniqueIdentifier>
     </Filter>
@@ -190,6 +178,9 @@
     </Filter>
     <Filter Include="src\ui">
       <UniqueIdentifier>{98AF26E7-6B70-350F-A077-3B84C3E3C2A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\panels">
+      <UniqueIdentifier>{AEACFAB7-8AD4-349B-9DCA-C4426AF9FE5B}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\utility">
       <UniqueIdentifier>{DDBA6885-631C-3314-86FF-583A98415F02}</UniqueIdentifier>

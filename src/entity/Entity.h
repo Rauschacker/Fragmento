@@ -30,13 +30,12 @@ public:
 	T& AddComponent(Args&&... args)
 	{
 		T& component = m_Registry->emplace<T>(m_EntityHandle, std::forward<Args>(args)...);
-#if 1
 		if (std::is_base_of<BasicComponent, T>::value)
 		{
 			static_assert(std::is_base_of<BasicComponent, T>::value, "type parameter of this class must derive from BaseClass");
 			component.SetEntity(this);
+			component.AfterCreation();
 		}
-#endif
 		//m_Scene->OnComponentAdded<T>(*this, component);
 		return component;
 	}
@@ -46,18 +45,15 @@ public:
 	template<typename T>
 	T& GetComponent()
 	{
-		//assert(HasComponent<T>());
 		return m_Registry->get<T>(m_EntityHandle);
 	}
 
-#if 0
+
 	template<typename... Component>
 	bool HasComponent()
 	{
-		return m_Registry.all_of<Component...>(m_EntityHandle);
+		return m_Registry->all_of<Component...>(m_EntityHandle);
 	}
-#endif
-	
 
 	template<typename T>
 	void RemoveComponent()

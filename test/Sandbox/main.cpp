@@ -5,6 +5,7 @@
 #include "Scenes/imguiFonts.h"
 #include "Scenes/assetsFolderScene.h"
 #include "Scenes/spriteTest.h"
+#include "Scenes/imGuiTest.h"
 
 #include "Editor/Editor.h"
 
@@ -17,7 +18,7 @@ public:
 
 	virtual void Init() override
 	{
-		Application::GetSceneHandler().CreateAndPushScene("gameOfLife", new SpriteTest);
+		Application::GetSceneHandler().CreateAndPushScene("gameOfLife", new ImGuiTestScene);
 		//Log::info("Start");
 	}
 

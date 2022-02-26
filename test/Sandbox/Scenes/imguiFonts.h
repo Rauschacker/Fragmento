@@ -1,7 +1,7 @@
 #pragma once
 #include "Scene/Scene.h"
 #include "utility/Logger.h"
-#include "ui/ImGuiPanel/ImGuiPanel.h"
+#include "ui/ImGuiPanel.h"
 #include "imgui/imgui.h"
 //#include "utility/FileLoader.h"
 #include "utility/Logger.h"
@@ -26,7 +26,7 @@ public:
 	virtual void Init() override
 	{
 
-		panel->AddFunc([this] {EntityList(m_Registry); });
+		//panel->AddFunc([this] {EntityList(m_Registry); });
 		
 
 

@@ -20,6 +20,9 @@ struct BasicComponent
 
 	BasicComponent(Entity& entity) : m_Entity(&entity) {}
 
+	/*needs replacement*/
+	virtual void AfterCreation() {}
+
 };
 
 struct TagComponent: BasicComponent

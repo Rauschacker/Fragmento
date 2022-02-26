@@ -4,8 +4,7 @@
 #include "modules/animation/Animation.h"
 #include "utility/FileLoader.h"
 #include "entity/components/Components.h"
-#include "ui/ImGuiPanel/ImGuiPanel.h"
-#include "modules/uiPanels/EntityInfo.h"
+#include "ui/ImGuiPanel.h"
 
 
 class SpriteTest : public Scene
@@ -30,7 +29,7 @@ public:
 		player.AddComponent<SpriteComponent>().SetImage(image);
 
 
-		debug->AddFunc([this] {EntityPanel(&player);});
+		//debug->AddFunc([this] {EntityPanel(&player);});
 	
 	}
 

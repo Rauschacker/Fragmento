@@ -14,9 +14,12 @@ class Shape : public BasicComponent{
 
 private:
 
+	
+
 protected:
 
-	TransformComponent* Position;
+	TransformComponent* m_Position = nullptr;
+
 	Color m_Color = BLACK;
 
 	float borderPadding = 1;
@@ -25,7 +28,9 @@ public:
 
 	/* Constructors */
 
-	Shape(Entity& entity) : BasicComponent(entity), Position(&entity.GetComponent<TransformComponent>()) {}
+	Shape() : BasicComponent() {}
+
+	Shape(Entity& entity) : BasicComponent(entity), m_Position(&entity.GetComponent<TransformComponent>()) {}
 
 	/* Destructors */
 
@@ -38,6 +43,8 @@ public:
 
 	virtual void DrawWireFrame(Color color = BLACK) {}
 
+	virtual void DrawOutline(Color color = BLACK, float width = 1) {}
+
 	virtual bool PointCollide(float x, float y) { return false; }
 
 
@@ -49,8 +56,14 @@ public:
 
 	void DrawCenter(Color color = RED, float radius = 5)
 	{
-		DrawCircle(Position->GetX(), Position->GetY(), radius, color);
+		DrawCircle(m_Position->GetX(), m_Position->GetY(), radius, color);
 	}
+
+	virtual void AfterCreation() override
+	{
+		m_Position = &(m_Entity->GetTransform());
+	}
+
 
 };
 
@@ -60,10 +73,12 @@ class Rectangle : public Shape {
 
 private:
 
-	float m_Width;
-	float m_Height;
+	float m_Width = 10;
+	float m_Height = 10;
 
 public:
+
+	Rectangle() : Shape() {}
 
 	Rectangle(Entity& entity) : Shape(entity), m_Width(10), m_Height(10) {}
 
@@ -89,13 +104,13 @@ public:
 
 	virtual void Draw(Color color = BLACK) override
 	{
-		DrawRectangle(Position->GetX(), Position->GetY(), m_Width, m_Height, color);
+		DrawRectangle(m_Position->GetX(), m_Position->GetY(), m_Width * m_Position->Scale.x, m_Height * m_Position->Scale.y, color);
 	}
 
 	virtual bool PointCollide(float x, float y) override
 	{
-		float xPos = Position->GetX();
-		float yPos = Position->GetY();
+		float xPos = m_Position->GetX();
+		float yPos = m_Position->GetY();
 		
 		if (xPos + borderPadding <= x && x <= xPos + m_Width - borderPadding && yPos + borderPadding <= y && y <= yPos + m_Height - borderPadding)
 		{
@@ -105,6 +120,21 @@ public:
 		{
 			return false;
 		}
+	}
+
+	virtual void DrawOutline(Color color = BLACK, float whidth = 1) override
+	{
+		auto& position = m_Entity->GetTransform();
+
+		Vector2 topLeft = { position.GetX(), position.GetY() };
+		Vector2 topRight = topLeft; topRight.x += m_Width;
+		Vector2 bottomLeft = topLeft; bottomLeft.y += m_Height;
+		Vector2 bottomRight = bottomLeft; bottomRight.x += m_Width;
+
+		DrawLineEx(topLeft, topRight, whidth, color);
+		DrawLineEx(topLeft, bottomLeft, whidth, color);
+		DrawLineEx(bottomLeft, bottomRight, whidth, color);
+		DrawLineEx(topRight, bottomRight, whidth, color);
 	}
 
 	virtual void DrawWireFrame(Color color = BLACK) override

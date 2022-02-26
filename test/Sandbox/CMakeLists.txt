@@ -16,6 +16,7 @@ set(test_scenes
    Scenes/imguiFonts.h 
    Scenes/assetsFolderScene.h 
    Scenes/spriteTest.h
+   Scenes/imGuiTest.h
 )
 
 source_group("Scenes" FILES ${test_scenes})

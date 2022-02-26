@@ -3,6 +3,7 @@
 
 #include "utility/FileLoader.h"
 #include "utility/Logger.h"
+#include "ui/themes.h"
 
 
 ImGuiWrapper ImGuiWrapper::s_Instance;
@@ -18,9 +19,10 @@ void ImGuiWrapper::Init()
 	io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;         // Enable Multi-Viewport / Platform Windows
 	io.ConfigFlags |= ImGuiDockNodeFlags_PassthruCentralNode;
 	Log::info(File::GetFont("roboto/Roboto-Black.ttf").string());
-	//auto font = ImGui::GetIO().Fonts->AddFontFromFileTTF(File::GetFont("roboto/Roboto-Black.ttf").string().c_str(), 18);
-	//ImGui::GetIO().FontDefault = font;
+	auto font = ImGui::GetIO().Fonts->AddFontFromFileTTF(File::GetFont("roboto/Roboto-Black.ttf").string().c_str(), 16);
+	ImGui::GetIO().FontDefault = font;
 	FinishRLGLImguSetup();
+	Theme::Hazel();
 }
 
 void ImGuiWrapper::AfterRender()
